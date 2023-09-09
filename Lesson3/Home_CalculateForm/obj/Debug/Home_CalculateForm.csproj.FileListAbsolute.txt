@@ -1,0 +1,9 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Home_CalculateForm\bin\Debug\Home_CalculateForm.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Home_CalculateForm\bin\Debug\Home_CalculateForm.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Home_CalculateForm\bin\Debug\Home_CalculateForm.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Home_CalculateForm\obj\Debug\Home_CalculateForm.Calculate.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Home_CalculateForm\obj\Debug\Home_CalculateForm.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Home_CalculateForm\obj\Debug\Home_CalculateForm.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Home_CalculateForm\obj\Debug\Home_CalculateForm.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Home_CalculateForm\obj\Debug\Home_CalculateForm.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Home_CalculateForm\obj\Debug\Home_CalculateForm.pdb

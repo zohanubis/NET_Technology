@@ -1,0 +1,10 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex1_CalculateForm\bin\Debug\Class_Ex1_CalculateForm.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex1_CalculateForm\bin\Debug\Class_Ex1_CalculateForm.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex1_CalculateForm\bin\Debug\Class_Ex1_CalculateForm.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex1_CalculateForm\obj\Debug\Class_Ex1_CalculateForm.csproj.AssemblyReference.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex1_CalculateForm\obj\Debug\Class_Ex1_CalculateForm.Ex1_CalculateForm.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex1_CalculateForm\obj\Debug\Class_Ex1_CalculateForm.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex1_CalculateForm\obj\Debug\Class_Ex1_CalculateForm.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex1_CalculateForm\obj\Debug\Class_Ex1_CalculateForm.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex1_CalculateForm\obj\Debug\Class_Ex1_CalculateForm.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex1_CalculateForm\obj\Debug\Class_Ex1_CalculateForm.pdb

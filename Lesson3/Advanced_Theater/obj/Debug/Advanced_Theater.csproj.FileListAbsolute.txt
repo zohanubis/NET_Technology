@@ -1,0 +1,9 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Advanced_Theater\obj\Debug\Advanced_Theater.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Advanced_Theater\obj\Debug\Advanced_Theater.Theater.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Advanced_Theater\obj\Debug\Advanced_Theater.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Advanced_Theater\obj\Debug\Advanced_Theater.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Advanced_Theater\bin\Debug\Advanced_Theater.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Advanced_Theater\bin\Debug\Advanced_Theater.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Advanced_Theater\bin\Debug\Advanced_Theater.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Advanced_Theater\obj\Debug\Advanced_Theater.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Advanced_Theater\obj\Debug\Advanced_Theater.pdb

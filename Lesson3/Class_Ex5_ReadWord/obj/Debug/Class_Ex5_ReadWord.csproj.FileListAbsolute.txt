@@ -1,0 +1,9 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex5_ReadWord\bin\Debug\Class_Ex5_ReadWord.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex5_ReadWord\bin\Debug\Class_Ex5_ReadWord.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex5_ReadWord\bin\Debug\Class_Ex5_ReadWord.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex5_ReadWord\obj\Debug\Class_Ex5_ReadWord.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex5_ReadWord\obj\Debug\Class_Ex5_ReadWord.ReadWord.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex5_ReadWord\obj\Debug\Class_Ex5_ReadWord.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex5_ReadWord\obj\Debug\Class_Ex5_ReadWord.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex5_ReadWord\obj\Debug\Class_Ex5_ReadWord.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex5_ReadWord\obj\Debug\Class_Ex5_ReadWord.pdb

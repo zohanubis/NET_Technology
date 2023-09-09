@@ -1,0 +1,9 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex4_SumArr\bin\Debug\Class_Ex4_SumArr.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex4_SumArr\bin\Debug\Class_Ex4_SumArr.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex4_SumArr\bin\Debug\Class_Ex4_SumArr.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex4_SumArr\obj\Debug\Class_Ex4_SumArr.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex4_SumArr\obj\Debug\Class_Ex4_SumArr.SumArr.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex4_SumArr\obj\Debug\Class_Ex4_SumArr.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex4_SumArr\obj\Debug\Class_Ex4_SumArr.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex4_SumArr\obj\Debug\Class_Ex4_SumArr.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex4_SumArr\obj\Debug\Class_Ex4_SumArr.pdb

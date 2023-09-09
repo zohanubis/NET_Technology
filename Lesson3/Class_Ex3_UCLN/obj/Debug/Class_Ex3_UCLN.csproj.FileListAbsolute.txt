@@ -1,0 +1,9 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex3_UCLN\bin\Debug\Class_Ex3_UCLN.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex3_UCLN\bin\Debug\Class_Ex3_UCLN.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex3_UCLN\bin\Debug\Class_Ex3_UCLN.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex3_UCLN\obj\Debug\Class_Ex3_UCLN.GCD.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex3_UCLN\obj\Debug\Class_Ex3_UCLN.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex3_UCLN\obj\Debug\Class_Ex3_UCLN.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex3_UCLN\obj\Debug\Class_Ex3_UCLN.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex3_UCLN\obj\Debug\Class_Ex3_UCLN.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson3\Class_Ex3_UCLN\obj\Debug\Class_Ex3_UCLN.pdb
