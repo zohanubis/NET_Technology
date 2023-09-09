@@ -1,0 +1,6 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\HomeExercise\bin\Debug\HomeExercise.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\HomeExercise\bin\Debug\HomeExercise.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\HomeExercise\bin\Debug\HomeExercise.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\HomeExercise\obj\Debug\HomeExercise.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\HomeExercise\obj\Debug\HomeExercise.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\HomeExercise\obj\Debug\HomeExercise.pdb

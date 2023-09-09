@@ -1,0 +1,7 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\SampleExercise\bin\Debug\SampleExercise.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\SampleExercise\bin\Debug\SampleExercise.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\SampleExercise\bin\Debug\SampleExercise.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\SampleExercise\obj\Debug\SampleExercise.csproj.AssemblyReference.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\SampleExercise\obj\Debug\SampleExercise.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\SampleExercise\obj\Debug\SampleExercise.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\SampleExercise\obj\Debug\SampleExercise.pdb

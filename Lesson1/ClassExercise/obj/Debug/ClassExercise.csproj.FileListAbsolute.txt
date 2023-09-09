@@ -1,0 +1,6 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\ClassExercise\bin\Debug\ClassExercise.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\ClassExercise\bin\Debug\ClassExercise.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\ClassExercise\bin\Debug\ClassExercise.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\ClassExercise\obj\Debug\ClassExercise.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\ClassExercise\obj\Debug\ClassExercise.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson1\ClassExercise\obj\Debug\ClassExercise.pdb
