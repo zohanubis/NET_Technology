@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Lesson1",
+    "\\Lesson1\\HomeExercise"
   ],
-  "SelectedNode": "\\D:\\Visual Studio 2019 - Github\\zohanubis\\NET_Technology",
+  "SelectedNode": "\\Lesson1\\HomeExercise\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
