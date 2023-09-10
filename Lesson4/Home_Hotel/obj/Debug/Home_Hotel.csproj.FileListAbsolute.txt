@@ -1,0 +1,9 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Home_Hotel\bin\Debug\Home_Hotel.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Home_Hotel\bin\Debug\Home_Hotel.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Home_Hotel\bin\Debug\Home_Hotel.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Home_Hotel\obj\Debug\Home_Hotel.Hotel.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Home_Hotel\obj\Debug\Home_Hotel.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Home_Hotel\obj\Debug\Home_Hotel.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Home_Hotel\obj\Debug\Home_Hotel.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Home_Hotel\obj\Debug\Home_Hotel.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Home_Hotel\obj\Debug\Home_Hotel.pdb

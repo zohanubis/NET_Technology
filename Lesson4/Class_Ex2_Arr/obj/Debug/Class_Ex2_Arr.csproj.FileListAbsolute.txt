@@ -1,0 +1,9 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex2_Arr\bin\Debug\Class_Ex2_Arr.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex2_Arr\bin\Debug\Class_Ex2_Arr.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex2_Arr\bin\Debug\Class_Ex2_Arr.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex2_Arr\obj\Debug\Class_Ex2_Arr.Arr.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex2_Arr\obj\Debug\Class_Ex2_Arr.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex2_Arr\obj\Debug\Class_Ex2_Arr.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex2_Arr\obj\Debug\Class_Ex2_Arr.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex2_Arr\obj\Debug\Class_Ex2_Arr.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex2_Arr\obj\Debug\Class_Ex2_Arr.pdb

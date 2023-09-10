@@ -1,0 +1,9 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex1_PT\bin\Debug\Class_Ex1_PT.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex1_PT\bin\Debug\Class_Ex1_PT.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex1_PT\bin\Debug\Class_Ex1_PT.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex1_PT\obj\Debug\Class_Ex1_PT.PT.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex1_PT\obj\Debug\Class_Ex1_PT.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex1_PT\obj\Debug\Class_Ex1_PT.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex1_PT\obj\Debug\Class_Ex1_PT.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex1_PT\obj\Debug\Class_Ex1_PT.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex1_PT\obj\Debug\Class_Ex1_PT.pdb

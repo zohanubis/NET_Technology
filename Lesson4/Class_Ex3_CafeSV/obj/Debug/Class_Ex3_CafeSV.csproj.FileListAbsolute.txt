@@ -1,0 +1,9 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex3_CafeSV\bin\Debug\Class_Ex3_CafeSV.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex3_CafeSV\bin\Debug\Class_Ex3_CafeSV.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex3_CafeSV\bin\Debug\Class_Ex3_CafeSV.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex3_CafeSV\obj\Debug\Class_Ex3_CafeSV.CafeSV.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex3_CafeSV\obj\Debug\Class_Ex3_CafeSV.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex3_CafeSV\obj\Debug\Class_Ex3_CafeSV.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex3_CafeSV\obj\Debug\Class_Ex3_CafeSV.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex3_CafeSV\obj\Debug\Class_Ex3_CafeSV.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Class_Ex3_CafeSV\obj\Debug\Class_Ex3_CafeSV.pdb

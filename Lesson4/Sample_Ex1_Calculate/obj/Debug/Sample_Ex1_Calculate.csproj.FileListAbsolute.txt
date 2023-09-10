@@ -1,0 +1,10 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Sample_Ex1_Calculate\bin\Debug\Sample_Ex1_Calculate.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Sample_Ex1_Calculate\bin\Debug\Sample_Ex1_Calculate.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Sample_Ex1_Calculate\bin\Debug\Sample_Ex1_Calculate.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Sample_Ex1_Calculate\obj\Debug\Sample_Ex1_Calculate.csproj.AssemblyReference.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Sample_Ex1_Calculate\obj\Debug\Sample_Ex1_Calculate.Calculate.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Sample_Ex1_Calculate\obj\Debug\Sample_Ex1_Calculate.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Sample_Ex1_Calculate\obj\Debug\Sample_Ex1_Calculate.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Sample_Ex1_Calculate\obj\Debug\Sample_Ex1_Calculate.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Sample_Ex1_Calculate\obj\Debug\Sample_Ex1_Calculate.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson4\Sample_Ex1_Calculate\obj\Debug\Sample_Ex1_Calculate.pdb
