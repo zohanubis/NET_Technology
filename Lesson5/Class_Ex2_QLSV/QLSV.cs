@@ -86,7 +86,7 @@ namespace Class_Ex2_QLSV
             TreeNode classNode = FindNodeByText(treeView1.Nodes[0], tenLop);
             if (classNode != null)
             {
-                TreeNode svNode = new TreeNode(tenSV);
+                TreeNode svNode = new TreeNode($"{maSV} - {tenSV} - {diaChiSV}");
                 svNode.Tag = sinhVien; // Lưu đối tượng SinhVien vào Tag của node
                 classNode.Nodes.Add(svNode);
 
@@ -115,7 +115,13 @@ namespace Class_Ex2_QLSV
             //        selectedNode.Remove();
             //    }
             //}
-            treeView1.SelectedNode.Remove();
+            
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa sinh viên này?", "Xác nhận xóa", MessageBoxButtons.YesNo);
+            if(result == DialogResult.Yes)
+            {
+                treeView1.SelectedNode.Remove();
+            }
+                  
         }
 
 
