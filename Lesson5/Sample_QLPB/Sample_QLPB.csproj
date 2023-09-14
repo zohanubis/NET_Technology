@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DEDFCD2A-7F49-4AD8-BB23-73BE0CBA10FE}</ProjectGuid>
+    <ProjectGuid>{5603D91E-979D-47FC-85ED-79A0616703A3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Class_Ex2_QLSV</RootNamespace>
-    <AssemblyName>Class_Ex2_QLSV</AssemblyName>
+    <RootNamespace>Sample_QLPB</RootNamespace>
+    <AssemblyName>Sample_QLPB</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -45,17 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="QLSV.cs">
+    <Compile Include="QLPB.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QLSV.Designer.cs">
-      <DependentUpon>QLSV.cs</DependentUpon>
+    <Compile Include="QLPB.Designer.cs">
+      <DependentUpon>QLPB.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="QLSV.resx">
-      <DependentUpon>QLSV.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -65,6 +62,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QLPB.resx">
+      <DependentUpon>QLPB.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

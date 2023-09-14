@@ -1,0 +1,10 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson5\Class_Ex2_QLSV\bin\Debug\Class_Ex2_QLSV.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson5\Class_Ex2_QLSV\bin\Debug\Class_Ex2_QLSV.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson5\Class_Ex2_QLSV\bin\Debug\Class_Ex2_QLSV.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson5\Class_Ex2_QLSV\obj\Debug\Class_Ex2_QLSV.csproj.AssemblyReference.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson5\Class_Ex2_QLSV\obj\Debug\Class_Ex2_QLSV.QLSV.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson5\Class_Ex2_QLSV\obj\Debug\Class_Ex2_QLSV.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson5\Class_Ex2_QLSV\obj\Debug\Class_Ex2_QLSV.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson5\Class_Ex2_QLSV\obj\Debug\Class_Ex2_QLSV.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson5\Class_Ex2_QLSV\obj\Debug\Class_Ex2_QLSV.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson5\Class_Ex2_QLSV\obj\Debug\Class_Ex2_QLSV.pdb

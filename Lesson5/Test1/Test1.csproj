@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DEDFCD2A-7F49-4AD8-BB23-73BE0CBA10FE}</ProjectGuid>
+    <ProjectGuid>{24C5EAC2-AD1B-4BD2-9076-6384672CA86D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Class_Ex2_QLSV</RootNamespace>
-    <AssemblyName>Class_Ex2_QLSV</AssemblyName>
+    <RootNamespace>Test1</RootNamespace>
+    <AssemblyName>Test1</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -45,16 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="QLSV.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QLSV.Designer.cs">
-      <DependentUpon>QLSV.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="QLSV.resx">
-      <DependentUpon>QLSV.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
