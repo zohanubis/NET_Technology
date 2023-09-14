@@ -1,7 +1,7 @@
 ﻿
 namespace Class_Ex2_QLSV
 {
-    partial class Form1
+    partial class QLSV
     {
         /// <summary>
         /// Required designer variable.

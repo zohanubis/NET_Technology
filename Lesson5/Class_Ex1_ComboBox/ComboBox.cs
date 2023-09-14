@@ -15,7 +15,7 @@ namespace Class_Ex1_ComboBox
         public ComboBox()
         {
             InitializeComponent();
-            // Mục đích khi thêm các dòng này là khi người dùng tương tác với giao diện thì ở thể thay đổi các số trong danh sách
+            // Đăng ký sự kiện khi Form khởi động
             btnCapNhat.Click += btnCapNhat_Click;
             comboBoxList.SelectedIndexChanged += comboBoxList_SelectedIndexChanged;
             btnTongUocSo.Click += btnTongUocSo_Click;
@@ -23,6 +23,7 @@ namespace Class_Ex1_ComboBox
             btnSLUSNT.Click += btnSLUSNT_Click;
             btnExit.Click += btnExit_Click;
         }
+
         private List<int> soDaThem = new List<int>();
 
         private void btnCapNhat_Click(object sender, EventArgs e)
@@ -85,6 +86,7 @@ namespace Class_Ex1_ComboBox
                 MessageBox.Show("Chưa có ước số nào để đếm.");
             }
         }
+
         private bool IsPrime(int number)
         {
             if (number <= 1)
@@ -120,7 +122,6 @@ namespace Class_Ex1_ComboBox
                 MessageBox.Show("Chưa có ước số nào để đếm.");
             }
         }
-
 
         private void btnExit_Click(object sender, EventArgs e)
         {
