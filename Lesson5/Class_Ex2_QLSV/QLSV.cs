@@ -115,13 +115,13 @@ namespace Class_Ex2_QLSV
             //        selectedNode.Remove();
             //    }
             //}
-            
+
             DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa sinh viên này?", "Xác nhận xóa", MessageBoxButtons.YesNo);
-            if(result == DialogResult.Yes)
+            if (result == DialogResult.Yes)
             {
                 treeView1.SelectedNode.Remove();
             }
-                  
+
         }
 
 
