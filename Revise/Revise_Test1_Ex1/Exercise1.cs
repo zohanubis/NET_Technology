@@ -44,7 +44,7 @@ namespace Revise_Test1_Ex1
         private int CountPrimes(int x, int y)
         {
             int count = 0;
-            for (int i = x; i <= y; i++)
+            for (int i = y; i <= x; i++)
             {
                 if (IsPrime(i))
                     count++;
@@ -70,7 +70,7 @@ namespace Revise_Test1_Ex1
         {
             int sum = 0;
 
-            for (int i = x; i <= y; i++)
+            for (int i = y; i <= x; i++)
             {
                 if (i % 2 == 0)
                 {
