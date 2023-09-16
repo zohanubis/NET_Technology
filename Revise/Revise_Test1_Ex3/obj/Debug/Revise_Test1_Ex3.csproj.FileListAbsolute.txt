@@ -1,0 +1,10 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Revise\Revise_Test1_Ex3\bin\Debug\Revise_Test1_Ex3.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Revise\Revise_Test1_Ex3\bin\Debug\Revise_Test1_Ex3.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Revise\Revise_Test1_Ex3\bin\Debug\Revise_Test1_Ex3.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Revise\Revise_Test1_Ex3\obj\Debug\Revise_Test1_Ex3.csproj.AssemblyReference.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Revise\Revise_Test1_Ex3\obj\Debug\Revise_Test1_Ex3.Form1.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Revise\Revise_Test1_Ex3\obj\Debug\Revise_Test1_Ex3.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Revise\Revise_Test1_Ex3\obj\Debug\Revise_Test1_Ex3.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Revise\Revise_Test1_Ex3\obj\Debug\Revise_Test1_Ex3.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Revise\Revise_Test1_Ex3\obj\Debug\Revise_Test1_Ex3.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Revise\Revise_Test1_Ex3\obj\Debug\Revise_Test1_Ex3.pdb
