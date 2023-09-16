@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Revise_Test1_Ex3
 {
-    public partial class Form1 : Form
+    public partial class Exercise3 : Form
     {
-        public Form1()
+        public Exercise3()
         {
             InitializeComponent();
         }
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-            if (!IsMonAnSelected() || !IsLoaiKhachSelected())
+            if (!MonAnDuocChon() || !LoaiKhachDuocChon())
             {
                 MessageBox.Show("Vui lòng chọn món ăn và loại khách hàng", "Lỗi");
                 return;
@@ -51,12 +51,12 @@ namespace Revise_Test1_Ex3
             // Hiển thị số tiền phải thanh toán
             txtTotal.Text = string.Format("{0:N0}đ", giaThucAn);
         }
-        private bool IsMonAnSelected()
+        private bool MonAnDuocChon()
         {
             return checkBunBo.Checked || checkHuTieu.Checked || checkBanhCanh.Checked || checkNui.Checked;
         }
 
-        private bool IsLoaiKhachSelected()
+        private bool LoaiKhachDuocChon()
         {
             return radioKhachQuen.Checked || radioKhachLa.Checked;
         }

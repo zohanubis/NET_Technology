@@ -1,7 +1,7 @@
 ﻿
 namespace Revise_Test1_Ex3
 {
-    partial class Form1
+    partial class Exercise3
     {
         /// <summary>
         /// Required designer variable.
