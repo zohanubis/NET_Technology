@@ -68,6 +68,7 @@ namespace Revise_Test1_Ex1
             this.txtResultEven.Name = "txtResultEven";
             this.txtResultEven.Size = new System.Drawing.Size(328, 26);
             this.txtResultEven.TabIndex = 17;
+            this.txtResultEven.TextChanged += new System.EventHandler(this.txtResultEven_TextChanged);
             // 
             // label4
             // 
@@ -78,6 +79,7 @@ namespace Revise_Test1_Ex1
             this.label4.Size = new System.Drawing.Size(162, 24);
             this.label4.TabIndex = 16;
             this.label4.Text = "Tống các số chẵn";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtResultPrime
             // 
@@ -86,6 +88,7 @@ namespace Revise_Test1_Ex1
             this.txtResultPrime.Name = "txtResultPrime";
             this.txtResultPrime.Size = new System.Drawing.Size(328, 26);
             this.txtResultPrime.TabIndex = 15;
+            this.txtResultPrime.TextChanged += new System.EventHandler(this.txtResultPrime_TextChanged);
             // 
             // label3
             // 
@@ -96,6 +99,7 @@ namespace Revise_Test1_Ex1
             this.label3.Size = new System.Drawing.Size(200, 24);
             this.label3.TabIndex = 14;
             this.label3.Text = "Số lượng số nguyên tố";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtY
             // 
@@ -115,6 +119,7 @@ namespace Revise_Test1_Ex1
             this.label2.Size = new System.Drawing.Size(73, 24);
             this.label2.TabIndex = 12;
             this.label2.Text = "Nhập Y";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtX
             // 
@@ -134,6 +139,7 @@ namespace Revise_Test1_Ex1
             this.label1.Size = new System.Drawing.Size(75, 24);
             this.label1.TabIndex = 10;
             this.label1.Text = "Nhập X";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Exercise1
             // 

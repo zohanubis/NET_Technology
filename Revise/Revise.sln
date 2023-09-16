@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test 1", "Test 1", "{862EFD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revise_Test1_Ex1", "Revise_Test1_Ex1\Revise_Test1_Ex1.csproj", "{855D7700-3BC8-4D10-8D9C-3C748555BF5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revise_Test1_Ex2", "Revise_Test1_Ex2\Revise_Test1_Ex2.csproj", "{FF6C61C8-C75F-4E8F-82F6-0E7438B6F949}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{855D7700-3BC8-4D10-8D9C-3C748555BF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{855D7700-3BC8-4D10-8D9C-3C748555BF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{855D7700-3BC8-4D10-8D9C-3C748555BF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6C61C8-C75F-4E8F-82F6-0E7438B6F949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6C61C8-C75F-4E8F-82F6-0E7438B6F949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6C61C8-C75F-4E8F-82F6-0E7438B6F949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6C61C8-C75F-4E8F-82F6-0E7438B6F949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{855D7700-3BC8-4D10-8D9C-3C748555BF5A} = {862EFDE6-32A9-4730-B0FC-39AD5851DF38}
+		{FF6C61C8-C75F-4E8F-82F6-0E7438B6F949} = {862EFDE6-32A9-4730-B0FC-39AD5851DF38}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {807A2A11-8A21-4797-A464-B7ACC0AE9659}
