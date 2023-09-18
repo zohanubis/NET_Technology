@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6F25CB5D-3515-4894-9C7A-1760B23E5A29}</ProjectGuid>
+    <ProjectGuid>{00C0DDBD-A419-4BA6-87E2-5B40F6EA45A1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Sample_Ex1</RootNamespace>
-    <AssemblyName>Sample_Ex1</AssemblyName>
+    <RootNamespace>Revise_Test2</RootNamespace>
+    <AssemblyName>Revise_Test2</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -45,17 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ex1.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ex1.Designer.cs">
-      <DependentUpon>Ex1.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Ex1.resx">
-      <DependentUpon>Ex1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

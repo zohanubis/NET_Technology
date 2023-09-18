@@ -73,6 +73,7 @@ namespace Revise_Test1_Ex2
             string chuoiCucDai = string.Join(" ", phanTuCucDai);
             txtPhanTuCucDai.Text = ($"Các phần tử cực đại : {chuoiCucDai}");
 
+
         }
         private void DemBoiSoCua3()
         {
