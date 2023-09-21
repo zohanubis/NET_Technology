@@ -146,6 +146,9 @@ namespace Revise_Test3_Ex3
 
         private void CafeGr_Load(object sender, EventArgs e)
         {
+            txtSLSua.Enabled = false;
+            txtSLDa.Enabled = false;
+            txtSLDen.Enabled = false;
             btnReset.Enabled = false;
         }
     }
