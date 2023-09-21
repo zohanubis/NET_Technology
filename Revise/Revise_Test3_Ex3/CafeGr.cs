@@ -13,10 +13,12 @@ namespace Revise_Test3_Ex3
     public partial class CafeGr : Form
     {
         private TongTien tongTien;
+        private bool btnTongTienClicked;
         public CafeGr()
         {
             InitializeComponent();
             tongTien = new TongTien();
+            btnTongTienClicked = false;
         }
         public class TongTien
         {
@@ -60,21 +62,34 @@ namespace Revise_Test3_Ex3
         {
             double totalAmount = tongTien.CalculateTotalAmount(checkPhongVip.Checked, checkSanVuon.Checked);
             txtTongTien.Text = totalAmount.ToString();
+
+            btnTongTien.Enabled = false;
+            btnReset.Enabled = true;
+            btnTongTienClicked = true;
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-            radioCafeSua.Checked = false;
-            radioCafeDa.Checked = false;
-            radioCafeDen.Checked = false;
-            txtSLSua.Text = string.Empty;
-            txtSLDa.Text = string.Empty;
-            txtSLDen.Text = string.Empty;
-            txtTongTien.Text = string.Empty;
-            checkPhongVip.Checked = false;
-            checkSanVuon.Checked = false;
-            errorProvider.Clear();
-            tongTien.Reset();
+            if (btnTongTienClicked)
+            {
+                radioCafeSua.Checked = false;
+                radioCafeDa.Checked = false;
+                radioCafeDen.Checked = false;
+                txtSLSua.Text = string.Empty;
+                txtSLDa.Text = string.Empty;
+                txtSLDen.Text = string.Empty;
+                txtTongTien.Text = string.Empty;
+                checkPhongVip.Checked = false;
+                checkSanVuon.Checked = false;
+                errorProvider.Clear();
+                tongTien.Reset();
+
+                btnTongTien.Enabled = true; 
+                btnReset.Enabled = false;
+                btnTongTienClicked = false; 
+            }
+
+
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -127,6 +142,11 @@ namespace Revise_Test3_Ex3
                 tongTien.SLCafeDen = SL;
             else
                 errorProvider.SetError(txtSLDen, "Vui lòng nhập số lượng.");
+        }
+
+        private void CafeGr_Load(object sender, EventArgs e)
+        {
+            btnReset.Enabled = false;
         }
     }
 }

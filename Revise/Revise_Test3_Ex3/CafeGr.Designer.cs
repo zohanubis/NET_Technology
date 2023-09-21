@@ -244,6 +244,7 @@ namespace Revise_Test3_Ex3
             this.Controls.Add(this.label1);
             this.Name = "CafeGr";
             this.Text = "Cafe Green";
+            this.Load += new System.EventHandler(this.CafeGr_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
