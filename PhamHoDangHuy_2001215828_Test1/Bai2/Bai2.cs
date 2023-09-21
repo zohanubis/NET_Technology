@@ -23,8 +23,6 @@ namespace Bai2
         {
             string input = txtJoin.Text;
             string[] values = input.Split(' ');
-
-            // Kiểm tra tính hợp lệ của dữ liệu
             if (!KiemTraNhap(values))
                 return;
 

@@ -7,3 +7,4 @@ D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\PhamHoDangHuy_2001215828
 D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\PhamHoDangHuy_2001215828_Test1\Bai3\obj\Debug\Bai3.csproj.CoreCompileInputs.cache
 D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\PhamHoDangHuy_2001215828_Test1\Bai3\obj\Debug\Bai3.exe
 D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\PhamHoDangHuy_2001215828_Test1\Bai3\obj\Debug\Bai3.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\PhamHoDangHuy_2001215828_Test1\Bai3\obj\Debug\Bai3.csproj.AssemblyReference.cache

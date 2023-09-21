@@ -75,7 +75,7 @@ namespace Bai3
                 radioBoBitTet.Checked = false;
                 radioBoNe.Checked = false;
                 radioCaBasa.Checked = false;
-               txtSLBoBitTet.Text = string.Empty;
+                txtSLBoBitTet.Text = string.Empty;
                 txtSLBoNe.Text = string.Empty;
                 txtSLCaBaSa.Text = string.Empty;
                 txtTongTien.Text = string.Empty;
@@ -129,7 +129,7 @@ namespace Bai3
         private void radioBoBitTet_CheckedChanged(object sender, EventArgs e)
         {
             txtSLBoBitTet.Enabled = radioBoBitTet.Checked;
-            tongTien.BoBitTet = radioBoBitTet.Checked;  
+            tongTien.BoBitTet = radioBoBitTet.Checked;
         }
 
         private void radioBoNe_CheckedChanged(object sender, EventArgs e)
