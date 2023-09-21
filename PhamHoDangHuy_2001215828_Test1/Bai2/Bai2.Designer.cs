@@ -143,6 +143,7 @@ namespace Bai2
             // 
             // txtTongLe
             // 
+            this.txtTongLe.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTongLe.Location = new System.Drawing.Point(139, 96);
             this.txtTongLe.Multiline = true;
             this.txtTongLe.Name = "txtTongLe";
@@ -151,6 +152,7 @@ namespace Bai2
             // 
             // txtTongChan
             // 
+            this.txtTongChan.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTongChan.Location = new System.Drawing.Point(139, 63);
             this.txtTongChan.Multiline = true;
             this.txtTongChan.Name = "txtTongChan";
@@ -159,6 +161,8 @@ namespace Bai2
             // 
             // txtTongMang
             // 
+            this.txtTongMang.BackColor = System.Drawing.SystemColors.Window;
+            this.txtTongMang.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTongMang.Location = new System.Drawing.Point(139, 32);
             this.txtTongMang.Multiline = true;
             this.txtTongMang.Name = "txtTongMang";

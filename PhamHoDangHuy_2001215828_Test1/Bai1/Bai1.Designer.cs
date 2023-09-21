@@ -62,9 +62,10 @@ namespace Bai1
             // 
             // btnExit
             // 
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(373, 126);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.Size = new System.Drawing.Size(90, 23);
             this.btnExit.TabIndex = 33;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -72,9 +73,10 @@ namespace Bai1
             // 
             // btnTinhTong
             // 
+            this.btnTinhTong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTinhTong.Location = new System.Drawing.Point(195, 126);
             this.btnTinhTong.Name = "btnTinhTong";
-            this.btnTinhTong.Size = new System.Drawing.Size(75, 23);
+            this.btnTinhTong.Size = new System.Drawing.Size(90, 23);
             this.btnTinhTong.TabIndex = 32;
             this.btnTinhTong.Text = "Tính Tổng";
             this.btnTinhTong.UseVisualStyleBackColor = true;

@@ -32,7 +32,6 @@ namespace Bai3
             this.components = new System.ComponentModel.Container();
             this.btnTongTien = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.txtSLCaBaSa = new System.Windows.Forms.TextBox();
             this.txtSLBoNe = new System.Windows.Forms.TextBox();
             this.txtSLBoBitTet = new System.Windows.Forms.TextBox();
@@ -48,6 +47,7 @@ namespace Bai3
             this.label1 = new System.Windows.Forms.Label();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
@@ -55,8 +55,8 @@ namespace Bai3
             // 
             // btnTongTien
             // 
-            this.btnTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTongTien.Location = new System.Drawing.Point(13, 235);
+            this.btnTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTongTien.Location = new System.Drawing.Point(13, 241);
             this.btnTongTien.Name = "btnTongTien";
             this.btnTongTien.Size = new System.Drawing.Size(91, 32);
             this.btnTongTien.TabIndex = 57;
@@ -74,21 +74,12 @@ namespace Bai3
             this.groupBox2.Controls.Add(this.radioBoNe);
             this.groupBox2.Controls.Add(this.radioBoBitTet);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(352, 57);
+            this.groupBox2.Location = new System.Drawing.Point(300, 57);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(212, 172);
+            this.groupBox2.Size = new System.Drawing.Size(262, 172);
             this.groupBox2.TabIndex = 56;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Loại Thức Ăn";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(129, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 16);
-            this.label2.TabIndex = 51;
-            this.label2.Text = "Số lượng";
             // 
             // txtSLCaBaSa
             // 
@@ -161,9 +152,9 @@ namespace Bai3
             this.groupBox1.Controls.Add(this.checkVietNam);
             this.groupBox1.Controls.Add(this.checkNuocNgoai);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(13, 57);
+            this.groupBox1.Location = new System.Drawing.Point(41, 57);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(259, 172);
+            this.groupBox1.Size = new System.Drawing.Size(225, 172);
             this.groupBox1.TabIndex = 55;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Loại Khách";
@@ -192,8 +183,8 @@ namespace Bai3
             // 
             // btnExit
             // 
-            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(484, 241);
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(484, 244);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(80, 32);
             this.btnExit.TabIndex = 54;
@@ -203,10 +194,10 @@ namespace Bai3
             // 
             // btnReset
             // 
-            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReset.Location = new System.Drawing.Point(384, 241);
+            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Location = new System.Drawing.Point(384, 244);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(91, 32);
+            this.btnReset.Size = new System.Drawing.Size(94, 32);
             this.btnReset.TabIndex = 53;
             this.btnReset.Text = "Nhập Mới";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -224,8 +215,8 @@ namespace Bai3
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(164, 9);
+            this.label1.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label1.Location = new System.Drawing.Point(116, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(276, 31);
             this.label1.TabIndex = 51;
@@ -245,11 +236,20 @@ namespace Bai3
             this.label3.TabIndex = 58;
             this.label3.Text = "VNĐ";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(129, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(69, 16);
+            this.label2.TabIndex = 51;
+            this.label2.Text = "Số lượng";
+            // 
             // Bai3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(574, 287);
+            this.ClientSize = new System.Drawing.Size(574, 293);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnTongTien);
             this.Controls.Add(this.groupBox2);
@@ -275,7 +275,6 @@ namespace Bai3
 
         private System.Windows.Forms.Button btnTongTien;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtSLCaBaSa;
         private System.Windows.Forms.TextBox txtSLBoNe;
         private System.Windows.Forms.TextBox txtSLBoBitTet;
@@ -291,6 +290,7 @@ namespace Bai3
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ErrorProvider errorProvider;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }
 
