@@ -52,5 +52,10 @@ namespace Sample_Ex1
             listBox1.Items.AddRange(listBox2.Items);
             listBox2.Items.Clear();
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

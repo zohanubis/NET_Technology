@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Lesson1",
-    "\\Lesson1\\HomeExercise",
     "\\Lesson3",
     "\\Lesson4",
+    "\\Lesson4\\Class_Ex3_CafeSV",
     "\\Lesson4\\Home_Hotel",
     "\\Lesson5",
+    "\\Lesson5\\Advanced_Ex1",
     "\\Lesson5\\Class_Ex2_QLSV",
     "\\Revise",
     "\\Revise\\Revise_Test2"
   ],
-  "SelectedNode": "\\Lesson5\\Class_Ex2_QLSV\\QLSV.cs",
+  "SelectedNode": "\\Lesson4\\Class_Ex3_CafeSV\\CafeSV.cs",
   "PreviewInSolutionExplorer": false
 }
