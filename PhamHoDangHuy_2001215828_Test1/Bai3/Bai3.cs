@@ -72,7 +72,8 @@ namespace Bai3
         {
             if (btnTongTienClicked)
             {
-                radioBoBitTet.Checked = false;
+                radioBoBitTet.Checked = true
+                    ;
                 radioBoNe.Checked = false;
                 radioCaBasa.Checked = false;
                 txtSLBoBitTet.Text = string.Empty;
@@ -150,7 +151,6 @@ namespace Bai3
             txtSLBoNe.Enabled = false;
             txtSLCaBaSa.Enabled = false;
             btnReset.Enabled = false;
-
         }
     }
 }

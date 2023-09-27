@@ -80,6 +80,7 @@ namespace Revise_Test3_Ex1
             this.label2.Size = new System.Drawing.Size(77, 24);
             this.label2.TabIndex = 22;
             this.label2.Text = "Nhập M";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtN
             // 
@@ -99,6 +100,7 @@ namespace Revise_Test3_Ex1
             this.label1.Size = new System.Drawing.Size(75, 24);
             this.label1.TabIndex = 20;
             this.label1.Text = "Nhập N";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtKetQua
             // 
@@ -107,6 +109,7 @@ namespace Revise_Test3_Ex1
             this.txtKetQua.Name = "txtKetQua";
             this.txtKetQua.Size = new System.Drawing.Size(328, 26);
             this.txtKetQua.TabIndex = 27;
+            this.txtKetQua.TextChanged += new System.EventHandler(this.txtKetQua_TextChanged);
             // 
             // label3
             // 
@@ -117,6 +120,7 @@ namespace Revise_Test3_Ex1
             this.label3.Size = new System.Drawing.Size(78, 24);
             this.label3.TabIndex = 26;
             this.label3.Text = "Kết Quả";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // errorProvider
             // 

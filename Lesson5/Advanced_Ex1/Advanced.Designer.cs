@@ -38,6 +38,7 @@ namespace Advanced_Ex1
             this.btnXoaTatCaPT = new System.Windows.Forms.Button();
             this.btnChuyenChuoiInHoaODauTu = new System.Windows.Forms.Button();
             this.btnChuyenChuoiInThuong = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // btnXoaPhanTuDaChon
@@ -179,6 +180,7 @@ namespace Advanced_Ex1
         private System.Windows.Forms.Button btnXoaTatCaPT;
         private System.Windows.Forms.Button btnChuyenChuoiInHoaODauTu;
         private System.Windows.Forms.Button btnChuyenChuoiInThuong;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 

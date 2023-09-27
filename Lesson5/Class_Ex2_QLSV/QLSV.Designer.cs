@@ -239,6 +239,7 @@ namespace Class_Ex2_QLSV
             this.Controls.Add(this.treeView1);
             this.Name = "QLSV";
             this.Text = "Quản Lí Sinh Viên";
+            this.Load += new System.EventHandler(this.QLSV_Load);
             this.groupBoxThongTinSV.ResumeLayout(false);
             this.groupBoxThongTinSV.PerformLayout();
             this.groupBoxThongTinLop.ResumeLayout(false);

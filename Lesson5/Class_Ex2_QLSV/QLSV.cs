@@ -25,18 +25,18 @@ namespace Class_Ex2_QLSV
             InitializeComponent();
             InitializeTreeView();
             AddInitialClass();
-            
+
         }
         private void AddInitialClass()
         {
             TreeNode rootNode = treeView1.Nodes.Add("Lớp");
             string[] lopHoc = { "12DHTH10", "12DHTH11", "12DHTH12" };
-            foreach(string lop in lopHoc)
+            foreach (string lop in lopHoc)
             {
                 TreeNode lopNode = rootNode.Nodes.Add(lop);
                 lopNode.Tag = lop;
             }
-            foreach(string lop in lopHoc)
+            foreach (string lop in lopHoc)
             {
                 comboBoxLop.Items.Add(lop);
             }
@@ -140,9 +140,9 @@ namespace Class_Ex2_QLSV
                 return;
             }
             bool classExists = false;
-            foreach(TreeNode node in treeView1.Nodes[0].Nodes)
+            foreach (TreeNode node in treeView1.Nodes[0].Nodes)
             {
-                if(node.Text == newClass)
+                if (node.Text == newClass)
                 {
                     classExists = true;
                     break;
@@ -150,7 +150,7 @@ namespace Class_Ex2_QLSV
             }
             if (classExists)
             {
-                MessageBox.Show("Lớp đã tồn tại.", "Lỗi");             
+                MessageBox.Show("Lớp đã tồn tại.", "Lỗi");
             }
             else
             {
@@ -180,6 +180,11 @@ namespace Class_Ex2_QLSV
                 }
             }
             return null;
+        }
+
+        private void QLSV_Load(object sender, EventArgs e)
+        {
+            groupBoxThongTinLop.Visible = true;
         }
     }
 }
