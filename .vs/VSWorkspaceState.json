@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Lesson5",
+    "\\Lesson5\\Sample_Ex1",
     "\\Revise",
     "\\Revise\\Revise_Test3_Ex3"
   ],
-  "SelectedNode": "\\Revise\\Revise_Test3_Ex3\\CafeGr.cs",
+  "SelectedNode": "\\Lesson5\\Sample_Ex1\\Ex1.cs",
   "PreviewInSolutionExplorer": false
 }

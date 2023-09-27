@@ -50,6 +50,21 @@ namespace Class_Ex1
         {
             listViewLiLich.SelectedItems[0].SubItems[0].Text = txtName.Text;
             listViewLiLich.SelectedItems[0].SubItems[1].Text = txtMa.Text;
+            string gioiTinh = radioNam.Checked ? "Nam" : "Nữ";
+            listViewLiLich.SelectedItems[0].SubItems[3].Text = gioiTinh;
+
+            string danToc = comboBoxDanToc.SelectedItem?.ToString() ?? "Không xác định";
+            listViewLiLich.SelectedItems[0].SubItems[2].Text = danToc;
+
+            string ngoaiNgu = "";
+            if (checkAnh.Checked)
+                ngoaiNgu += "Anh, ";
+            if (checkPhap.Checked)
+                ngoaiNgu += "Pháp, ";
+            if (checkTrung.Checked)
+                ngoaiNgu += "Trung, ";
+            ngoaiNgu = ngoaiNgu.TrimEnd(' ', ',');
+            listViewLiLich.SelectedItems[0].SubItems[4].Text = ngoaiNgu;
         }
 
         private void listViewLiLich_SelectedIndexChanged(object sender, EventArgs e)

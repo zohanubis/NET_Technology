@@ -94,7 +94,11 @@ namespace Home_Ex1
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult dg = MessageBox.Show("Bạn muốn đóng chương trình", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dg == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
     public class Word
