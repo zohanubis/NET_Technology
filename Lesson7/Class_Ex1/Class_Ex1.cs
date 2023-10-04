@@ -21,67 +21,91 @@ namespace Class_Ex1
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            string maMonHoc = txtMaMH.Text;
+            string tenMonHoc = txtTenMH.Text;
+
+            if (string.IsNullOrEmpty(maMonHoc) || string.IsNullOrEmpty(tenMonHoc))
+            {
+                MessageBox.Show("Mã môn học và tên môn học không được để trống.");
+                return;
+            }
+
             try
             {
                 using (SqlConnection conStr = new SqlConnection(connectionString))
                 {
                     conStr.Open();
-                    string insertString = "INSERT INTO MonHoc VALUES (@MaMonHoc, @TenMonHoc)";
+                    string insertString = "INSERT INTO MonHoc (MaMonHoc, TenMonHoc) VALUES (@MaMonHoc, @TenMonHoc)";
                     SqlCommand cmd = new SqlCommand(insertString, conStr);
-                    cmd.Parameters.AddWithValue("@MaMonHoc", txtMaMH.Text);
-                    cmd.Parameters.AddWithValue("@TenMonHoc", txtTenMH.Text);
+                    cmd.Parameters.AddWithValue("@MaMonHoc", maMonHoc);
+                    cmd.Parameters.AddWithValue("@TenMonHoc", tenMonHoc);
                     cmd.ExecuteNonQuery();
                 }
-                MessageBox.Show("Thành Công");
+                MessageBox.Show("Thêm thành công");
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Thất Bại");
+                MessageBox.Show("Thêm thất bại: " + ex.Message);
             }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            string maMonHoc = txtMaMH.Text;
+            string tenMonHoc = txtTenMH.Text;
+
+            if (string.IsNullOrEmpty(maMonHoc) || string.IsNullOrEmpty(tenMonHoc))
+            {
+                MessageBox.Show("Mã môn học và tên môn học không được để trống.");
+                return;
+            }
+
             try
             {
                 using (SqlConnection conStr = new SqlConnection(connectionString))
                 {
                     conStr.Open();
-
-                    string deleteString = "DELETE FROM MonHoc WHERE MaMonHoc = @MaMH";
-                    SqlCommand cmd = new SqlCommand(deleteString, conStr);
-                    cmd.Parameters.AddWithValue("@MaMH", txtMaMH.Text);
+                    string insertString = "INSERT INTO MonHoc (MaMonHoc, TenMonHoc) VALUES (@MaMonHoc, @TenMonHoc)";
+                    SqlCommand cmd = new SqlCommand(insertString, conStr);
+                    cmd.Parameters.AddWithValue("@MaMonHoc", maMonHoc);
+                    cmd.Parameters.AddWithValue("@TenMonHoc", tenMonHoc);
                     cmd.ExecuteNonQuery();
                 }
-
-                MessageBox.Show("Thành Công");
+                MessageBox.Show("Thêm thành công");
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Thất Bại: " + ex.Message);
+                MessageBox.Show("Thêm thất bại: " + ex.Message);
             }
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
+            string maMonHoc = txtMaMH.Text;
+            string tenMonHoc = txtTenMH.Text;
+
+            if (string.IsNullOrEmpty(maMonHoc) || string.IsNullOrEmpty(tenMonHoc))
+            {
+                MessageBox.Show("Mã môn học và tên môn học không được để trống.");
+                return;
+            }
+
             try
             {
                 using (SqlConnection conStr = new SqlConnection(connectionString))
                 {
                     conStr.Open();
-
-                    string updateString = "UPDATE MonHoc SET TenMonHoc = @TenMonHoc WHERE MaMonHoc = @MaMonHoc";
-                    SqlCommand cmd = new SqlCommand(updateString, conStr);
-                    cmd.Parameters.AddWithValue("@MaMonHoc", txtMaMH.Text);
-                    cmd.Parameters.AddWithValue("@TenMonHoc", txtTenMH.Text);
+                    string insertString = "INSERT INTO MonHoc (MaMonHoc, TenMonHoc) VALUES (@MaMonHoc, @TenMonHoc)";
+                    SqlCommand cmd = new SqlCommand(insertString, conStr);
+                    cmd.Parameters.AddWithValue("@MaMonHoc", maMonHoc);
+                    cmd.Parameters.AddWithValue("@TenMonHoc", tenMonHoc);
                     cmd.ExecuteNonQuery();
                 }
-
-                MessageBox.Show("Cập nhật thành công");
+                MessageBox.Show("Thêm thành công");
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Cập nhật thất bại: " + ex.Message);
+                MessageBox.Show("Thêm thất bại: " + ex.Message);
             }
         }
     }
