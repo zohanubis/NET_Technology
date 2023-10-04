@@ -1,0 +1,10 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson7\Lesson7\bin\Debug\Lesson7.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson7\Lesson7\bin\Debug\Lesson7.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson7\Lesson7\bin\Debug\Lesson7.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson7\Lesson7\obj\Debug\Lesson7.csproj.AssemblyReference.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson7\Lesson7\obj\Debug\Lesson7.Form1.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson7\Lesson7\obj\Debug\Lesson7.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson7\Lesson7\obj\Debug\Lesson7.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson7\Lesson7\obj\Debug\Lesson7.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson7\Lesson7\obj\Debug\Lesson7.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson7\Lesson7\obj\Debug\Lesson7.pdb

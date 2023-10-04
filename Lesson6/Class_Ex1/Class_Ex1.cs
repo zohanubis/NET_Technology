@@ -50,6 +50,7 @@ namespace Class_Ex1
         {
             listViewLiLich.SelectedItems[0].SubItems[0].Text = txtName.Text;
             listViewLiLich.SelectedItems[0].SubItems[1].Text = txtMa.Text;
+
             string gioiTinh = radioNam.Checked ? "Nam" : "Nữ";
             listViewLiLich.SelectedItems[0].SubItems[3].Text = gioiTinh;
 
