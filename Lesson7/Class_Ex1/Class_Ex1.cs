@@ -17,8 +17,16 @@ namespace Class_Ex1
         public Class_Ex1()
         {
             InitializeComponent();
+            this.FormClosing += new FormClosingEventHandler(Class_Ex1_FormClosing);
         }
-
+        private void Class_Ex1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Bạn có chắc muốn thoát chương trình?", "Xác nhận", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
         private void btnAdd_Click(object sender, EventArgs e)
         {
             string maMonHoc = txtMaMH.Text;
