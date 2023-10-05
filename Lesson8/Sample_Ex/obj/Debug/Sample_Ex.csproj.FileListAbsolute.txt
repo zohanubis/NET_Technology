@@ -1,0 +1,9 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Sample_Ex\bin\Debug\Sample_Ex.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Sample_Ex\bin\Debug\Sample_Ex.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Sample_Ex\bin\Debug\Sample_Ex.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Sample_Ex\obj\Debug\Sample_Ex.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Sample_Ex\obj\Debug\Sample_Ex.Sample_Ex2.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Sample_Ex\obj\Debug\Sample_Ex.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Sample_Ex\obj\Debug\Sample_Ex.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Sample_Ex\obj\Debug\Sample_Ex.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Sample_Ex\obj\Debug\Sample_Ex.pdb
