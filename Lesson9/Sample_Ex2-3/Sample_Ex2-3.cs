@@ -135,6 +135,7 @@ namespace Sample_Ex2_3
 
             // Khởi tạo DataAdapter và DataTable
             dataAdapter = new SqlDataAdapter("SELECT * FROM Khoa", connection);
+
             table = new DataTable();
 
             // Tự động tạo lệnh Insert, Update, Delete từ DataAdapter
