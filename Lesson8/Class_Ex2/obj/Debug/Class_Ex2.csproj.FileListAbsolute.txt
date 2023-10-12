@@ -7,3 +7,4 @@ D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Class_Ex2\obj\De
 D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Class_Ex2\obj\Debug\Class_Ex2.csproj.CoreCompileInputs.cache
 D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Class_Ex2\obj\Debug\Class_Ex2.exe
 D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Class_Ex2\obj\Debug\Class_Ex2.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson8\Class_Ex2\obj\Debug\Class_Ex2.csproj.AssemblyReference.cache
