@@ -100,7 +100,7 @@ namespace Class_Ex1
 
         private void dataGridView_SelectionChanged(object sender, EventArgs e)
         {
-            // Implement logic for handling DataGridView selection change
+
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
