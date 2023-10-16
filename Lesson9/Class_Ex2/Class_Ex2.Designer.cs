@@ -63,6 +63,7 @@ namespace Class_Ex2
             this.txtTenLop.Name = "txtTenLop";
             this.txtTenLop.Size = new System.Drawing.Size(274, 32);
             this.txtTenLop.TabIndex = 82;
+            this.txtTenLop.TextChanged += new System.EventHandler(this.txtTenLop_TextChanged);
             // 
             // TenSinhVien
             // 
@@ -74,6 +75,7 @@ namespace Class_Ex2
             this.TenSinhVien.Size = new System.Drawing.Size(97, 26);
             this.TenSinhVien.TabIndex = 80;
             this.TenSinhVien.Text = "Tên Lớp";
+            this.TenSinhVien.Click += new System.EventHandler(this.TenSinhVien_Click);
             // 
             // btnExit
             // 
@@ -86,6 +88,7 @@ namespace Class_Ex2
             this.btnExit.TabIndex = 79;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // dataGridView
             // 
@@ -95,6 +98,7 @@ namespace Class_Ex2
             this.dataGridView.Size = new System.Drawing.Size(988, 303);
             this.dataGridView.TabIndex = 78;
             this.dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
+            this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
             // 
             // txtMaLop
             // 
@@ -104,6 +108,7 @@ namespace Class_Ex2
             this.txtMaLop.Name = "txtMaLop";
             this.txtMaLop.Size = new System.Drawing.Size(274, 32);
             this.txtMaLop.TabIndex = 77;
+            this.txtMaLop.TextChanged += new System.EventHandler(this.txtMaLop_TextChanged);
             // 
             // TenKhoa
             // 
@@ -115,6 +120,7 @@ namespace Class_Ex2
             this.TenKhoa.Size = new System.Drawing.Size(113, 26);
             this.TenKhoa.TabIndex = 76;
             this.TenKhoa.Text = "Tên Khoa";
+            this.TenKhoa.Click += new System.EventHandler(this.TenKhoa_Click);
             // 
             // MaSinhVien
             // 
@@ -126,6 +132,7 @@ namespace Class_Ex2
             this.MaSinhVien.Size = new System.Drawing.Size(90, 26);
             this.MaSinhVien.TabIndex = 75;
             this.MaSinhVien.Text = "Mã Lớp";
+            this.MaSinhVien.Click += new System.EventHandler(this.MaSinhVien_Click);
             // 
             // btnEdit
             // 

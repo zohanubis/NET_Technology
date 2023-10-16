@@ -286,6 +286,39 @@ namespace Class_Ex2
             }
         }
 
+        private void txtTenLop_TextChanged(object sender, EventArgs e)
+        {
 
+        }
+
+        private void TenSinhVien_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txtMaLop_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TenKhoa_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MaSinhVien_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

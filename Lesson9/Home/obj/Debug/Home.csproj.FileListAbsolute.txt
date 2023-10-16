@@ -1,0 +1,10 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Home\bin\Debug\Home.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Home\bin\Debug\Home.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Home\bin\Debug\Home.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Home\obj\Debug\Home.csproj.AssemblyReference.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Home\obj\Debug\Home.HomeEx.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Home\obj\Debug\Home.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Home\obj\Debug\Home.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Home\obj\Debug\Home.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Home\obj\Debug\Home.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Home\obj\Debug\Home.pdb
