@@ -201,5 +201,10 @@ namespace Advanced
                 dataGridView.DataSource = table;
             }
         }
+
+        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

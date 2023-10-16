@@ -40,8 +40,8 @@ namespace Class_Ex1
             this.txtTenSinhVien = new System.Windows.Forms.TextBox();
             this.Lop = new System.Windows.Forms.Label();
             this.TenSinhVien = new System.Windows.Forms.Label();
-            this.dateTimePickerNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.comboBoxLop = new System.Windows.Forms.ComboBox();
+            this.txtNgaySinh = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,6 +64,7 @@ namespace Class_Ex1
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.Size = new System.Drawing.Size(988, 303);
             this.dataGridView.TabIndex = 63;
+            this.dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
             this.dataGridView.SelectionChanged += new System.EventHandler(this.dataGridView_SelectionChanged);
             // 
             // txtMaSinhVien
@@ -167,20 +168,6 @@ namespace Class_Ex1
             this.TenSinhVien.TabIndex = 65;
             this.TenSinhVien.Text = "Tên Sinh Viên";
             // 
-            // dateTimePickerNgaySinh
-            // 
-            this.dateTimePickerNgaySinh.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dateTimePickerNgaySinh.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePickerNgaySinh.CustomFormat = "dd/MM/yyyy";
-            this.dateTimePickerNgaySinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePickerNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerNgaySinh.Location = new System.Drawing.Point(694, 20);
-            this.dateTimePickerNgaySinh.Name = "dateTimePickerNgaySinh";
-            this.dateTimePickerNgaySinh.Size = new System.Drawing.Size(286, 31);
-            this.dateTimePickerNgaySinh.TabIndex = 69;
-            // 
             // comboBoxLop
             // 
             this.comboBoxLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -193,13 +180,22 @@ namespace Class_Ex1
             this.comboBoxLop.TabIndex = 70;
             this.comboBoxLop.SelectedIndexChanged += new System.EventHandler(this.comboBoxLop_SelectedIndexChanged);
             // 
+            // txtNgaySinh
+            // 
+            this.txtNgaySinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgaySinh.Location = new System.Drawing.Point(694, 18);
+            this.txtNgaySinh.Margin = new System.Windows.Forms.Padding(2);
+            this.txtNgaySinh.Name = "txtNgaySinh";
+            this.txtNgaySinh.Size = new System.Drawing.Size(274, 32);
+            this.txtNgaySinh.TabIndex = 71;
+            // 
             // Class_Ex1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1053, 573);
+            this.Controls.Add(this.txtNgaySinh);
             this.Controls.Add(this.comboBoxLop);
-            this.Controls.Add(this.dateTimePickerNgaySinh);
             this.Controls.Add(this.txtTenSinhVien);
             this.Controls.Add(this.Lop);
             this.Controls.Add(this.TenSinhVien);
@@ -233,8 +229,8 @@ namespace Class_Ex1
         private System.Windows.Forms.TextBox txtTenSinhVien;
         private System.Windows.Forms.Label Lop;
         private System.Windows.Forms.Label TenSinhVien;
-        private System.Windows.Forms.DateTimePicker dateTimePickerNgaySinh;
         private System.Windows.Forms.ComboBox comboBoxLop;
+        private System.Windows.Forms.TextBox txtNgaySinh;
     }
 }
 

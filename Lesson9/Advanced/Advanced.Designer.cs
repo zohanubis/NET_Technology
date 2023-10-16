@@ -105,6 +105,7 @@ namespace Advanced
             this.dataGridView.Size = new System.Drawing.Size(1083, 242);
             this.dataGridView.TabIndex = 77;
             this.dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
+            this.dataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
             // 
             // txtMaHang
             // 
