@@ -64,6 +64,7 @@ namespace Class_Ex1
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.Size = new System.Drawing.Size(988, 303);
             this.dataGridView.TabIndex = 63;
+            this.dataGridView.SelectionChanged += new System.EventHandler(this.dataGridView_SelectionChanged);
             // 
             // txtMaSinhVien
             // 
@@ -107,6 +108,7 @@ namespace Class_Ex1
             this.btnEdit.TabIndex = 58;
             this.btnEdit.Text = "Sửa";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDelete
             // 
@@ -119,6 +121,7 @@ namespace Class_Ex1
             this.btnDelete.TabIndex = 57;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
@@ -182,6 +185,8 @@ namespace Class_Ex1
             // 
             this.comboBoxLop.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxLop.FormattingEnabled = true;
+            this.comboBoxLop.Items.AddRange(new object[] {
+            "Tất cả lớp"});
             this.comboBoxLop.Location = new System.Drawing.Point(694, 86);
             this.comboBoxLop.Name = "comboBoxLop";
             this.comboBoxLop.Size = new System.Drawing.Size(286, 33);

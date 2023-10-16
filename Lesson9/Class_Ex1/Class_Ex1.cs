@@ -23,75 +23,168 @@ namespace Class_Ex1
         public Class_Ex1()
         {
             InitializeComponent();
+            dataGridView.SelectionChanged += dataGridView_SelectionChanged;
         }
         private void LoadDataToComboBoxLop()
         {
-            string selectQuery = "SELECT MaLop, TenLop FROM Lop";
-            SqlDataAdapter adapter = new SqlDataAdapter(selectQuery, connectionString);
-            DataTable dataTable = new DataTable();
-            adapter.Fill(dataTable);
 
-            comboBoxLop.DataSource = dataTable;
+            DataTable comboBoxDataTable = new DataTable();
+            comboBoxDataTable.Columns.Add("MaLop", typeof(string));
+            comboBoxDataTable.Columns.Add("TenLop", typeof(string));
+            comboBoxDataTable.Rows.Add("All", "Tất cả lớp");
+
+            string selectQuery = "SELECT MaLop, TenLop FROM Lop";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlDataAdapter adapter = new SqlDataAdapter(selectQuery, connection);
+                adapter.Fill(comboBoxDataTable);
+            }
+
+            comboBoxLop.DataSource = comboBoxDataTable;
             comboBoxLop.DisplayMember = "TenLop";
             comboBoxLop.ValueMember = "MaLop";
         }
         private void Class_Ex1_Load(object sender, EventArgs e)
         {
-            // Khởi tạo kết nối
             connection = new SqlConnection(connectionString);
-
-            // Load dữ liệu lớp vào ComboBox
             LoadDataToComboBoxLop();
 
-            // Khởi tạo DataAdapter và DataTable
             dataAdapter = new SqlDataAdapter("SELECT * FROM SinhVien", connection);
             table = new DataTable();
-
-            // Tự động tạo lệnh Insert, Update, Delete từ DataAdapter
             new SqlCommandBuilder(dataAdapter);
-
-            // Đổ dữ liệu từ DB vào DataTable
             dataAdapter.Fill(table);
-
-            // Hiển thị dữ liệu trên DataGridView
             dataGridView.DataSource = table;
+
+
         }
 
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            string query = "INSERT INTO SinhVien (MaSinhVien, TenSinhVien, NgaySinh, MaLop) VALUES (@MaSinhVien, @TenSinhVien, @NgaySinh, @MaLop)";
 
-        }
-        private void LoadLopComboBox()
-        {
-            comboBoxLop.Items.Clear();
-            comboBoxLop.Items.Add("Tất cả lớp");
+            string maLop = comboBoxLop.SelectedValue.ToString();
+            string checkLopQuery = "SELECT COUNT(*) FROM Lop WHERE MaLop = @MaLop";
+            SqlCommand checkLopCommand = new SqlCommand(checkLopQuery, connection);
+            checkLopCommand.Parameters.AddWithValue("@MaLop", maLop);
+            connection.Open();
+            int lopCount = (int)checkLopCommand.ExecuteScalar();
+            connection.Close();
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            if (lopCount == 0)
             {
-                string query = "SELECT MaLop, TenLop FROM Lop";
-                SqlCommand cmd = new SqlCommand(query, connection);
-                connection.Open();
-
-                SqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
-                {
-                    string maLop = reader["MaLop"].ToString();
-                    string tenLop = reader["TenLop"].ToString();
-                    comboBoxLop.Items.Add($"{maLop} - {tenLop}");
-                }
-
-                reader.Close();
+                MessageBox.Show("Mã lớp không hợp lệ.");
+                return;
             }
 
-            comboBoxLop.SelectedIndex = 0;
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@MaSinhVien", txtMaSinhVien.Text);
+            command.Parameters.AddWithValue("@TenSinhVien", txtTenSinhVien.Text);
+            command.Parameters.AddWithValue("@NgaySinh", dateTimePickerNgaySinh.Value);
+            command.Parameters.AddWithValue("@MaLop", maLop);
+
+            try
+            {
+                connection.Open();
+                command.ExecuteNonQuery();
+                MessageBox.Show("Thêm dữ liệu thành công.");
+                dataAdapter.Fill(table);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi thêm dữ liệu: " + ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
         }
-
-
+        private bool isAllSelected = false;
         private void comboBoxLop_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+
+            string selectedMaLop = comboBoxLop.SelectedValue.ToString();
+
+            if (table != null)
+            {
+                if (selectedMaLop == "Tất cả lớp")
+                {
+                    dataGridView.DataSource = table;
+                }
+                else
+                {
+                    table.DefaultView.RowFilter = $"MaLop = '{selectedMaLop}'";
+                    // Cập nhật lại DataGridView
+                    dataGridView.DataSource = table;
+                }
+            }
         }
-        
+
+        private void dataGridView_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dataGridView.SelectedRows.Count > 0)
+            {
+                DataGridViewRow selectedRow = dataGridView.SelectedRows[0];
+                txtMaSinhVien.Text = selectedRow.Cells["MaSinhVien"].Value.ToString();
+                txtTenSinhVien.Text = selectedRow.Cells["TenSinhVien"].Value.ToString();
+                dateTimePickerNgaySinh.Value = Convert.ToDateTime(selectedRow.Cells["NgaySinh"].Value);
+                comboBoxLop.SelectedValue = selectedRow.Cells["MaLop"].Value;
+            }
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dataGridView.SelectedRows.Count > 0)
+            {
+                DataGridViewRow selectedRow = dataGridView.SelectedRows[0];
+                txtMaSinhVien.Text = selectedRow.Cells["MaSinhVien"].Value.ToString();
+                txtTenSinhVien.Text = selectedRow.Cells["TenSinhVien"].Value.ToString();
+                dateTimePickerNgaySinh.Value = Convert.ToDateTime(selectedRow.Cells["NgaySinh"].Value);
+                comboBoxLop.SelectedValue = selectedRow.Cells["MaLop"].Value;
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            string query = "INSERT INTO SinhVien (MaSinhVien, TenSinhVien, NgaySinh, MaLop) VALUES (@MaSinhVien, @TenSinhVien, @NgaySinh, @MaLop)";
+
+            // Check if MaLop exists in Lop table
+            string maLop = comboBoxLop.SelectedValue.ToString();
+            string checkLopQuery = "SELECT COUNT(*) FROM Lop WHERE MaLop = @MaLop";
+            SqlCommand checkLopCommand = new SqlCommand(checkLopQuery, connection);
+            checkLopCommand.Parameters.AddWithValue("@MaLop", maLop);
+            connection.Open();
+            int lopCount = (int)checkLopCommand.ExecuteScalar();
+            connection.Close();
+
+            if (lopCount == 0)
+            {
+                MessageBox.Show("Mã lớp không hợp lệ.");
+                return;
+            }
+
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@MaSinhVien", txtMaSinhVien.Text);
+            command.Parameters.AddWithValue("@TenSinhVien", txtTenSinhVien.Text);
+            command.Parameters.AddWithValue("@NgaySinh", dateTimePickerNgaySinh.Value);
+            command.Parameters.AddWithValue("@MaLop", maLop);
+
+            try
+            {
+                connection.Open();
+                command.ExecuteNonQuery();
+                MessageBox.Show("Thêm dữ liệu thành công.");
+                dataAdapter.Fill(table);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi thêm dữ liệu: " + ex.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
     }
 }
+
