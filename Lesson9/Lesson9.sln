@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassExercise", "ClassExerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_Ex1", "Class_Ex1\Class_Ex1.csproj", "{40BD7C7C-36C6-449A-98F7-04CEB8C7C332}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced", "Advanced\Advanced.csproj", "{14BF92CA-D626-4D30-85FE-49855FC6A01B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{40BD7C7C-36C6-449A-98F7-04CEB8C7C332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40BD7C7C-36C6-449A-98F7-04CEB8C7C332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40BD7C7C-36C6-449A-98F7-04CEB8C7C332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BF92CA-D626-4D30-85FE-49855FC6A01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BF92CA-D626-4D30-85FE-49855FC6A01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BF92CA-D626-4D30-85FE-49855FC6A01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BF92CA-D626-4D30-85FE-49855FC6A01B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{C4145F3A-BBB8-491C-A614-70C10F74D7F4} = {DD66D41A-7F1E-4055-9BCE-5EA71CD59468}
 		{102E1644-9F54-413C-BA95-76D9B0EED05D} = {DD66D41A-7F1E-4055-9BCE-5EA71CD59468}
 		{40BD7C7C-36C6-449A-98F7-04CEB8C7C332} = {317F8D71-4F83-405C-9976-50CF8991AD3B}
+		{14BF92CA-D626-4D30-85FE-49855FC6A01B} = {317F8D71-4F83-405C-9976-50CF8991AD3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6A586CE-1F6A-46CC-A286-1DBEA15B7A97}

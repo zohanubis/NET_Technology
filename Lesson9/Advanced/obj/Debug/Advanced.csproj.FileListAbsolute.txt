@@ -1,0 +1,10 @@
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Advanced\bin\Debug\Advanced.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Advanced\bin\Debug\Advanced.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Advanced\bin\Debug\Advanced.pdb
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Advanced\obj\Debug\Advanced.csproj.AssemblyReference.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Advanced\obj\Debug\Advanced.Advanced.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Advanced\obj\Debug\Advanced.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Advanced\obj\Debug\Advanced.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Advanced\obj\Debug\Advanced.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Advanced\obj\Debug\Advanced.exe
+D:\Visual Studio 2019 - Github\zohanubis\NET_Technology\Lesson9\Advanced\obj\Debug\Advanced.pdb
