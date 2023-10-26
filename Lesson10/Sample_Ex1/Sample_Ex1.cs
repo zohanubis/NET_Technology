@@ -55,12 +55,51 @@ namespace Sample_Ex1
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
+            // Bật nút "Lưu"
+            btnSave.Enabled = true;
 
+            txtTenKhoa.Enabled = txtMaKhoa.Enabled = true;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtMaKhoa.Text))
+            {
+                MessageBox.Show("Chưa nhập Mã Khoa");
+                txtMaKhoa.Focus();
+                return;
+            }
 
+            if (string.IsNullOrWhiteSpace(txtTenKhoa.Text))
+            {
+                MessageBox.Show("Chưa nhập Tên Khoa");
+                txtTenKhoa.Focus();
+                return;
+            }
+
+            if (txtMaKhoa.Enabled) // Thêm
+            {
+                DataRow insertRow = table.NewRow();
+                insertRow["MaKhoa"] = txtMaKhoa.Text;
+                insertRow["TenKhoa"] = txtTenKhoa.Text;
+                table.Rows.Add(insertRow);
+            }
+            else // Sửa
+            {
+                DataRow updateRow = table.Rows.Find(txtMaKhoa.Text);
+                if (updateRow != null)
+                {
+                    updateRow["TenKhoa"] = txtTenKhoa.Text;
+                }
+            }
+
+            // Cập nhật cơ sở dữ liệu
+            dataAdapter.Update(table);
+
+            // Hiển thị thông báo thành công
+            MessageBox.Show("Thành công");
+
+            btnSave.Enabled = txtMaKhoa.Enabled = txtTenKhoa.Enabled = false;
         }
 
         private void Sample_Ex1_Load(object sender, EventArgs e)
@@ -72,27 +111,36 @@ namespace Sample_Ex1
         }
         private void DisableTextBoxes()
         {
-            txtMaKhoa.Enabled = false;
-            txtTenKhoa.Enabled = false;
+            txtMaKhoa.Enabled = txtTenKhoa.Enabled = false;
         }
 
         private void DisableButtons()
         {
-            btnEdit.Enabled = false;
-            btnDelete.Enabled = false;
-            btnSave.Enabled = false;
+            btnEdit.Enabled = btnDelete.Enabled = btnSave.Enabled = false;
         }
         private void EnableTextBoxes()
         {
-            txtMaKhoa.Enabled = true;
-            txtTenKhoa.Enabled = true;
+            txtMaKhoa.Enabled = txtTenKhoa.Enabled = true;
         }
 
         private void EnableButtons()
         {
-            btnEdit.Enabled = true;
-            btnDelete.Enabled = true;
-            btnSave.Enabled = true;
+            btnEdit.Enabled = btnDelete.Enabled = btnSave.Enabled = true;
+        }
+
+        private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                // Lấy thông tin tương ứng với hàng đã chọn
+                DataGridViewRow row = dataGridView.Rows[e.RowIndex];
+                txtMaKhoa.Text = row.Cells["MaKhoa"].Value.ToString();
+                txtTenKhoa.Text = row.Cells["TenKhoa"].Value.ToString();
+
+                // Bật nút "Sửa" và "Xóa"
+                btnEdit.Enabled = true;
+                btnDelete.Enabled = true;
+            }
         }
     }
 }

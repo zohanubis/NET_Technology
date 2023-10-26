@@ -142,6 +142,7 @@ namespace Sample_Ex1
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.Size = new System.Drawing.Size(602, 209);
             this.dataGridView.TabIndex = 10;
+            this.dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
             // 
             // Sample_Ex1
             // 

@@ -69,5 +69,15 @@ namespace Sample_Ex1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flat_plus_icon_addition_circle_sign_button_vector_132296251 {
+            get {
+                object obj = ResourceManager.GetObject("flat-plus-icon-addition-circle-sign-button-vector-132296251", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
